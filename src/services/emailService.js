@@ -6,13 +6,13 @@ const sendEmailAPI = async (file, paciente, experimento) => {
     port: 587,
     secure: false,
     auth: {
-      user: 'easyrentiris',
-      pass: 'dZQSghNW6472',
+      user: 'schmitzz',
+      pass: 'XpkqXFdC1165',
     },
   });
 
   const message = {
-    from: 'noreplay.easyrent@gmail.com',
+    from: 'pyshoestudo@gmail.com',
     to: [paciente.email],
     subject: `Psycho ${experimento.toUpperCase()} | ${paciente.name}`,
     html: `
