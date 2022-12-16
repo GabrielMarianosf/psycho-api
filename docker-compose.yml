@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  psycho-api: 
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - 4000:4000
+    tty: true
